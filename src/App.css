@@ -1,0 +1,39 @@
+/* Colores de las pestañas superiores */
+.work { background-color: #ff8c66; }      /* Naranja */
+.play { background-color: #56c2e6; }      /* Celeste */
+.study { background-color: #ff5c7c; }     /* Rosado */
+.exercise { background-color: #4acf81; }  /* Verde */
+.social { background-color: #7536d3; }    /* Morado */
+.self-care { background-color: #f1c65b; } /* Amarillo */
+
+/* Ajuste del Grid para que se vea igual a la imagen original */
+.dashboard {
+  display: grid;
+  grid-template-columns: 250px repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 1100px;
+}
+
+/* Estilo para la tarjeta lateral de Jeremy */
+.profile-card {
+  grid-row: span 2; /* Ocupa las dos filas de alto */
+  background-color: #1c1f4a;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-top {
+  background-color: #5847eb;
+  padding: 30px;
+  border-radius: 15px;
+  flex-grow: 1;
+}
+
+.profile-menu {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
