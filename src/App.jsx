@@ -22,11 +22,11 @@ export const App = () => {
 
       {/* Bloque de Actividades */}
       <User nombre="Work" horas="32hrs" anterior="36hrs" color="work" />
-      <User nombre="Play" horas="10hrs" anterior="8hrs" color="play" />
-      <User nombre="Study" horas="4hrs" anterior="7hrs" color="study" />
-      <User nombre="Exercise" horas="4hrs" anterior="5hrs" color="exercise" />
-      <User nombre="Social" horas="5hrs" anterior="10hrs" color="social" />
-      <User nombre="Self Care" horas="2hrs" anterior="2hrs" color="self-care" />
+      <User nombre="Play" horas="15hrs" anterior="8hrs" color="play" />
+      <User nombre="Study" horas="49hrs" anterior="7hrs" color="study" />
+      <User nombre="Exercise" horas="46hrs" anterior="5hrs" color="exercise" />
+      <User nombre="Social" horas="57hrs" anterior="10hrs" color="social" />
+      <User nombre="Self Care" horas="25hrs" anterior="2hrs" color="self-care" />
     </div>
   )
 }
